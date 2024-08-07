@@ -1,0 +1,389 @@
+.navbar {
+  background-image: linear-gradient(45deg, #FCCD5B, #ffa141);
+}
+
+.navbar .container .navbar-brand  {
+  color: #172546;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.footer .footer-company h5 {
+  font-size: 1em;
+  font-family: arial;
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.navbar .navbar-toggler-icon {
+  color: #172546;
+}
+
+.company-logo-hero {
+  width: 25%;
+}
+
+.navbar-nav a {
+  color: #172546
+}
+
+.jumbotron {
+  background-image: linear-gradient(180deg, rgba(252,205,91,.5), #ffffff, white);
+  padding: 2rem 1rem;
+}
+
+.contain-profil .info-img {
+  width: 17px;
+  margin-top: 6px;
+}
+
+.contain-profil .visit-location {
+  background-image: linear-gradient(45deg, #FCCD5B, #ffa141);
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.2em; 
+  font-family: arial;
+}
+
+.jumbotron .logo-jumbotron {
+  margin: 30px auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+
+.img-thumbnail {
+  background-color: #172546;
+}
+
+
+/* .jumbotron .logo-jumbotron img {
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+} */
+#boss, #ceo, #bendahara, #karyawan, #ayahboss {
+  border: 0.3em solid #ffa141;
+  width: 150px;
+}
+
+#card-boss, #card-ceo, #card-bendahara, #card-karyawan, #card-ayahboss {
+  width: 95%;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.contain-profil {
+  padding: 20px;
+  border-radius: 8px;
+  width: 320px;
+  background-color: white;
+  margin: auto;
+  display: grid;
+  align-items: center;
+}
+
+.contain-profil .icon {
+  width: 23px;
+  margin-top: 7px;
+}
+
+.contain-profil p {
+  text-indent: 20px;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.contain-profil img {
+  width: 100%;
+  border-radius: 3%;
+  margin-bottom: 10px;
+}
+
+.contain-profil .img-title {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.contain-profil a {
+  margin-bottom: 50px;
+}
+
+.staff {
+  padding: 20px;
+  border-radius: 3%;
+  width: 320px;
+  background-color: white;
+  margin: auto;
+}
+
+.staff p {
+  text-indent: 20px;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.staff img {
+  width: 280px;
+  border-radius: 3%;
+  margin-bottom: 10px;
+}
+
+.staff .img-title {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.staff a {
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: arial;
+}
+
+.cart {
+  margin: auto;
+  width: 95%;
+  background-color: white;
+  border-radius: 3%;
+  display: grid;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cart img {
+  border-radius: 3%;
+  width: 80%;
+  margin: 15px auto;
+}
+
+.footer .footer-company {
+  background-image: linear-gradient(45deg, #FCCD5B, #ffa141);
+  padding: 10px;
+}
+
+.footer .footer-company .foot-icon {
+  width: 1.5em;
+}
+
+/* Landscape Phone */
+@media (min-width: 480px) {
+  .contain-profil {
+    width: 90%;
+  }
+  .navbar .container .navbar-brand  {
+    color: #172546;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  
+  .navbar-nav a {
+    font-size: 0.9em;
+  }
+}
+
+/* Tablet Potrait*/
+@media (min-width: 768px) {
+  .contain-profil {
+    width: 90%;
+  }
+  
+  .navbar .container .navbar-brand  {
+    color: #172546;
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+  
+  .navbar-nav a {
+    font-size: 1em;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 1.4em; 
+    font-family: arial;
+  }
+  
+  .contain-profil .icon {
+    width: 25px;
+    margin-top: 9px;
+  }
+  
+  .contain-profil .info-img {
+    width: 19px;
+    margin-top: 8px;
+  }
+  
+  .contain-profil .img-title {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+  .contain-profil p {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.3em;
+  }
+  
+  .contain-profil .visit-location {
+    background-image: linear-gradient(45deg, #FCCD5B, #ffa141);
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .footer .footer-company h5 {
+    font-size: 1.2em;
+    font-family: arial;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: -10px;
+  }
+  
+  .footer .footer-company .foot-icon {
+    width: 1.7em;
+  }
+}
+
+/* Tablet Landscape */
+@media (min-width: 992px) {
+  .contain-profil {
+    width: 90%;
+  }
+  
+  .navbar .container .navbar-brand  {
+    color: #172546;
+    font-weight: bold;
+    font-size: 3em;
+  }
+  
+  .navbar-nav a {
+    font-size: 2em;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 1.6em; 
+    font-family: arial;
+  }
+
+  .contain-profil .icon {
+    width: 27px;
+    margin-top: 11px;
+  }
+  
+  .contain-profil .info-img {
+    width: 21px;
+    margin-top: 6px;
+  }
+  
+  .contain-profil .img-title {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+  .contain-profil p {
+    text-indent: 40px;
+    text-align: justify;
+    font-size: 1.5em;
+  }
+  
+  .contain-profil .visit-location {
+    background-image: linear-gradient(45deg, #FCCD5B, #ffa141);
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  
+  .footer .footer-company h5 {
+    font-size: 1.4em;
+    font-family: arial;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: -10px;
+  }
+  
+  .footer .footer-company .foot-icon {
+    width: 1.9em;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+  .contain-profil {
+    width: 90%;
+  }
+  
+  .navbar .container .navbar-brand  {
+    color: #172546;
+    font-weight: bold;
+    font-size: 3.5em;
+  }
+  
+  .navbar-nav a {
+    font-size: 2.5em;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 1.8em; 
+    font-family: arial;
+  }
+  
+  .contain-profil .icon {
+    width: 29px;
+    margin-top: 13px;
+  }
+  
+  .contain-profil .info-img {
+    width: 23px;
+    margin-top: 8px;
+  }
+  
+  .contain-profil .img-title {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+  .contain-profil p {
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 1.7em;
+  }
+  
+  .contain-profil .visit-location {
+    background-image: linear-gradient(45deg, #FCCD5B, #ffa141);
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.6em;
+  }
+  
+  .footer .footer-company h5 {
+    font-size: 1.6em;
+    font-family: arial;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    margin-bottom: -10px;
+  }
+  
+  .footer .footer-company .foot-icon {
+    width: 2.1em;
+  }
+}
